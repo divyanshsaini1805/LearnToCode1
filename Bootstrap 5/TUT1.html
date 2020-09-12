@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    
+   <script>
+
+     
+let obj1 ={
+name : "Divyansh",
+surname : 'Saini',
+class: 12,
+roll_no : 68,
+name1 () { `${this.name} ${this.surname}` 
+}};
+
+const person = {
+
+    firstname : 'Divyansh',
+    secondname : 'Saini',
+
+    fullname(){
+        return `${person.firstname} ${person.secondname}`;
+    },
+
+     fullname(value1){
+
+        const value = value1.split(' ');
+        this.firstname= value1[0];
+        this.secondname=value1[1];
+    }
+};
+
+person.fullname = "Div saini";
+console.log(obj1);
+// console.log(obj1);
+  
+ 
+
+ 
+
+
+
+
+
+  
+  
+  </script>
+
+  </body>
+
+
+</html>
